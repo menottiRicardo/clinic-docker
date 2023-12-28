@@ -29,7 +29,7 @@ RUN yarn config set httpTimeout 1200000 && \
     yarn db-deploy && \
     yarn --cwd packages/prisma seed-app-store
 
-RUN yarn turbo run build --filter=@calcom/web
+RUN yarn build
 
 # RUN yarn plugin import workspace-tools && \
 #     yarn workspaces focus --all --production
