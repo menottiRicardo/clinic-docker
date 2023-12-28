@@ -72,9 +72,7 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            docker.io/calendso/calendso
-            docker.io/calcom/cal.com
-            ghcr.io/calcom/cal.com
+            docker.io/menottiricardo/clinic
           # Add flavor latest only on full releases, not on pre-releases
           flavor: |
             latest=${{ !github.event.release.prerelease }}
