@@ -2,7 +2,7 @@ services:
   - type: web
     name: cal-web
     plan: standard
-    repo: https://github.com/calcom/docker.git
+    repo: https://github.com/menottiRicardo/clinic-docker.git
     dockerfilePath: ./Dockerfile.render
     env: docker
     envVars:
